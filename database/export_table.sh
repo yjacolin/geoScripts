@@ -1,7 +1,7 @@
 #!/bin/bash
 
 EXPORT_DIR=/tmp/export
-DBNAME=jourdan
+DBNAME=myDB
 
 sudo -u postgres rm -Rf ${EXPORT_DIR}
 sudo -u postgres mkdir ${EXPORT_DIR}
